@@ -1,0 +1,196 @@
+body{
+  background-image: url("fonznak.jpg");
+  background-size: no-repeat;
+  background-position: center;
+  background-attachment:fixed; /* Фон страницы фиксируется */
+  background-repeat:repeat;
+}
+
+.imgZnak{
+  margin-top: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.zodiak{
+
+
+}
+
+.view{
+  
+  margin: 20px;
+  height: 200px;
+  width: 20%;
+  display: inline-block; 
+  overflow: hidden;
+  transition: 1s;
+  display: block;
+  background-image: url("fonznak.jpg");
+  color: rgb(70, 193, 209);
+
+}
+
+.ret{
+  width: 70px;
+  height: 70px;
+  margin-left: 45%;
+  margin-top: 3em;
+  background-color: rgb(7, 56, 121);
+}
+
+.rootZod{
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  
+}
+
+.view:hover {
+  transform: scale(1.2);
+}
+
+.infoZod{
+  /* display: flex; */
+  justify-content: center;
+  margin-left:6%;
+  margin-right:6%;
+  margin-top:5em;
+  /* border: thick double rgb(245, 141, 5); */
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.headZod{
+  width: 100%;
+  display: flex; 
+}
+
+.mainZnak{
+  font-size: 1.4em;
+  color :rgb(212, 234, 235);
+}
+
+.imgInfoZnak{
+  margin-left: 15%;
+  margin-right: 18%;
+}
+
+
+
+.znak {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 57px;
+  padding: 10px 38px 10px 16px;
+  background: #fff url("select-arrows.png") no-repeat right 16px center;
+  background-size: 10px;
+  transition: border-color .1s ease-in-out,box-shadow .1s ease-in-out;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.znak:hover {
+  border: 1px solid #999;
+}
+.znak:focus {
+  border: 1px solid #999;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,.2);
+  outline: none;
+}
+/* remove default arrow in IE */
+
+h1 {
+font-family: Merriweather, serif;
+}
+a {
+  color: #333;
+  font-weight: 700;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.znak {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  background-color: rgb(212, 234, 235);
+}
+
+.rootZodrootinteroperability{
+  
+  /* display: flex;
+  justify-content: center; */
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:5em;
+  border: thick double rgb(195, 138, 209);
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: aqua;
+}
+
+.inZnakInfo{
+  margin-top: 10px;
+  
+}
+
+.inZnakInfoHead{
+  color :rgb(212, 234, 235);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-style: italic;
+  text-align: center;
+}
+
+.inZnakInfoFoot{
+  text-indent: 5%;
+  font-size: 1.2em;
+  color :rgb(174, 231, 248);
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+}
+
+.api{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.resApi{
+  height: 300px;
+  color: rgb(195, 138, 209);;
+  font-size: 1.2em;
+
+}
+
+.butApi{
+  background-color: rgb(212, 234, 235);
+}
+
+.headZn{
+  margin-left: 35%;
+  margin-bottom: 3em;
+}
+
+.Selectors{
+  margin-left: 20%;
+}
+
+.infoInteroperability{
+  margin-top: 2em;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  text-indent: 5%;
+  font-size: 1.2em;
+}
